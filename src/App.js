@@ -102,7 +102,6 @@ function App() {
                       <img class="mx-1" src={twitter2} width="15" height="15" />
                     </Row>
                   </div>
-
                 </Row>
               </Col>
             </Row>
@@ -115,7 +114,7 @@ function App() {
                 <form class="form-inline">
                   <div class="input-group">
                     <div class="form-group has-search" >
-                      <input type="text" class="form-control" placeholder="ürün, marka, model, oem  ara..." style={{ borderRadius: 50, width: 700, height:45 }} />
+                      <input type="text" class="form-control" placeholder="ürün, marka, model, oem  ara..." style={{ borderRadius: 50, width: 700, height: 45 }} />
                       <span class="form-control-feedback">
                         <Row>
                           <img src={ara} height="45" style={{ marginLeft: -40, borderLeft: '1px solid gray' }} />
@@ -127,36 +126,30 @@ function App() {
               </div>
               <div style={{}}>
                 <form class="form-inline">
-                  
                   <button style={{ height: 45, width: 200, backgroundColor: 'white', borderRadius: 50, marginLeft: -20 }} class="form-control mr-sm-2">
-                  <Row>
-                    <Col >
-                    <p>Giriş Yap</p>
-                    </Col>
-                    <Col>
-                    <img src={kilit} height="35" style={{ borderLeft: '1px solid gray' ,paddingLeft:15}} />
-
-                    </Col>
-                  </Row>
-                  
+                    <Row>
+                      <Col >
+                        <p>Giriş Yap</p>
+                      </Col>
+                      <Col>
+                        <img src={kilit} height="35" style={{ borderLeft: '1px solid gray', paddingLeft: 15 }} />
+                      </Col>
+                    </Row>
                   </button>
                 </form>
               </div>
               <div style={{}}>
                 <form class="form-inline">
-                <button style={{ height: 45, width: 100, backgroundColor: 'white', borderRadius: 50, marginLeft: 20 }} class="form-control mr-sm-2">
-                  <Row>
-                    <Col md={4} >
-                    <span style={{height:35, paddingTop:10}} class="badge badge-pill badge-danger">125</span>
-                    </Col>
-                    <Col md={2}>
-                    <img src={tractor} height="25" style={{ borderLeft: '1px solid gray',paddingLeft:10, marginLeft:10 }} />
-
-                    </Col>
-                  </Row>
-                  
+                  <button style={{ height: 45, width: 100, backgroundColor: 'white', borderRadius: 50, marginLeft: 20 }} class="form-control mr-sm-2">
+                    <Row>
+                      <Col md={4} >
+                        <span style={{ height: 35, paddingTop: 10 }} class="badge badge-pill badge-danger">125</span>
+                      </Col>
+                      <Col md={2}>
+                        <img src={tractor} height="25" style={{ borderLeft: '1px solid gray', paddingLeft: 10, marginLeft: 10 }} />
+                      </Col>
+                    </Row>
                   </button>
-                 
                 </form>
               </div>
             </div>
@@ -168,16 +161,15 @@ function App() {
           <li class="nav-item px-3">
             <Row>
               <img src={tractor2} width="50" height="30" style={{ marginTop: 8 }} />
-              <Nav.Link class="nav-link" style={{ color: 'black' , marginTop:8}} href="#">
+              <Nav.Link class="nav-link" style={{ color: 'black', marginTop: 8 }} href="#">
                 Anasayfa
             </Nav.Link>
               <div style={{ borderRight: '1px solid black', height: 30, marginTop: 8, marginBottom: 8 }}></div>
             </Row>
-
           </li>
           <li class="nav-item px-3">
             <Row>
-              <Nav.Link class="nav-link" style={{ color: 'black', marginTop:8 }} href="#">
+              <Nav.Link class="nav-link" style={{ color: 'black', marginTop: 8 }} href="#">
                 Ürün Arama
             </Nav.Link>
               <div style={{ borderRight: '1px solid black', height: 30, marginTop: 8, marginBottom: 8 }}></div>
@@ -185,7 +177,7 @@ function App() {
           </li>
           <li class="nav-item px-3">
             <Row>
-              <Nav.Link class="nav-link" style={{ color: 'black', marginTop:8 }} href="#">
+              <Nav.Link class="nav-link" style={{ color: 'black', marginTop: 8 }} href="#">
                 Hakkımızda
             </Nav.Link>
               <div style={{ borderRight: '1px solid black', height: 30, marginTop: 8, marginBottom: 8 }}></div>
@@ -194,7 +186,7 @@ function App() {
           <li class="nav-item px-3">
             <Row>
               <img src={yeni} width="25" height="25" style={{ marginTop: 8, marginLeft: -2 }} />
-              <Nav.Link class="nav-link" style={{ color: 'black' , marginTop:8}} href="#">
+              <Nav.Link class="nav-link" style={{ color: 'black', marginTop: 8 }} href="#">
                 Yeni Ürünler
             </Nav.Link>
               <div style={{ borderRight: '1px solid black', height: 30, marginTop: 8, marginBottom: 8 }}></div>
@@ -204,17 +196,16 @@ function App() {
 
             <Row>
               <img src={yuzde} width="25" height="25" style={{ marginTop: 8, marginLeft: -2 }} />
-              <Nav.Link class="nav-link" style={{ color: 'black' , marginTop:8}} href="#">
+              <Nav.Link class="nav-link" style={{ color: 'black', marginTop: 8 }} href="#">
                 İndirim
             </Nav.Link>
               <div style={{ borderRight: '1px solid black', height: 30, marginTop: 8, marginBottom: 8 }}></div>
             </Row>
           </li>
           <li class="nav-item px-3">
-
             <Row>
               <img src={unlem} width="25" height="25" style={{ marginTop: 8, marginLeft: -2 }} />
-              <Nav.Link class="nav-link" style={{ color: 'black', marginTop:8 }} href="#">
+              <Nav.Link class="nav-link" style={{ color: 'black', marginTop: 8 }} href="#">
                 Fırsat Ürünleri
             </Nav.Link>
               <div style={{ borderRight: '1px solid black', height: 30, marginTop: 8, marginBottom: 8 }}></div>
@@ -222,11 +213,10 @@ function App() {
           </li>
           <li class="nav-item px-3">
             <Row>
-              <Nav.Link class="nav-link" style={{ color: 'black', marginTop:8 }} href="#">
+              <Nav.Link class="nav-link" style={{ color: 'black', marginTop: 8 }} href="#">
                 İletişim
             </Nav.Link>
             </Row>
-
           </li>
         </ul>
       </div>
@@ -372,7 +362,6 @@ function App() {
                     />
                   </Carousel.Item>
                 </Carousel>
-
               </div>
             </div>
             <div class="col-md-3" style={{ padding: 10 }} >
@@ -463,11 +452,9 @@ function App() {
             <p style={{ marginTop: 8, fontSize: 18, fontWeight: 500, marginLeft: 10 }}>İndirimli Ürünler</p>
             <div style={{ border: '0.5px solid gray', width: 900, height: 0.1, marginTop: 28 }}></div>
           </Row>
-
           <Row style={{ marginRight: 8 }}>
             <div style={{ flex: 0.4, marginTop: 145 }} >
               <img src={solok} width="30" height="30" />
-
             </div>
             <div style={{ flex: 2.5, marginRight: 10 }}>
               <div style={{ backgroundColor: '#fff', height: 350, borderRadius: 5, paddingTop: 20 }}>
@@ -600,14 +587,10 @@ function App() {
             </div>
             <div style={{ flex: 0.4, marginRight: -30, marginTop: 145 }}>
               <img src={sagok} width="30" height="30" />
-
             </div>
           </Row>
-
-
         </div>
       </div>
-
       <div class="col-md-12" style={{ backgroundColor: '#ebebeb', paddingTop: 3, paddingBottom: 3, }}>
         <div class="container">
           <div class="col-md-12 my-3" style={{ backgroundColor: '#f5f5f5', marginBottom: 10 }}>
@@ -616,11 +599,9 @@ function App() {
               <p style={{ marginTop: 8, fontSize: 18, fontWeight: 500, marginLeft: 10 }}>Fırsat Ürünleri</p>
               <div style={{ border: '0.5px solid gray', width: 910, height: 0.1, marginTop: 28 }}></div>
             </Row>
-
             <Row style={{ marginRight: 8 }}>
               <div style={{ flex: 0.4, marginTop: 340 }} >
                 <img src={solok} width="30" height="30" />
-
               </div>
               <div style={{ flex: 5, marginRight: 10 }}>
                 <div style={{ backgroundColor: '#fff', borderRadius: 5, paddingTop: 20 }}>
@@ -785,9 +766,7 @@ function App() {
             </Row>
           </div>
         </div>
-
       </div>
-
       <div class="container">
         <div class="col-md-12 my-3" style={{ backgroundColor: '#f5f5f5', height: 420 }}>
           <Row>
@@ -795,11 +774,9 @@ function App() {
             <p style={{ marginTop: 8, fontSize: 18, fontWeight: 500, marginLeft: 10 }}>Yeni Ürünler</p>
             <div style={{ border: '0.5px solid gray', width: 925, height: 0.1, marginTop: 28 }}></div>
           </Row>
-
           <Row style={{ marginRight: 8 }}>
             <div style={{ flex: 0.4, marginTop: 145 }} >
               <img src={solok} width="30" height="30" />
-
             </div>
             <div style={{ flex: 2.5, marginRight: 10 }}>
               <div style={{ backgroundColor: '#fff', height: 350, borderRadius: 5, paddingTop: 20 }}>
@@ -833,7 +810,6 @@ function App() {
                   </Row>
                 </div>
               </div>
-
             </div>
             <div style={{ flex: 2.5, marginRight: 10 }} >
               <div style={{ backgroundColor: '#fff', height: 350, borderRadius: 5, paddingTop: 20 }}>
@@ -933,11 +909,8 @@ function App() {
             </div>
             <div style={{ flex: 0.4, marginRight: -30, marginTop: 145 }}>
               <img src={sagok} width="30" height="30" />
-
             </div>
           </Row>
-
-
         </div>
       </div>
       <div class="container">
@@ -950,30 +923,27 @@ function App() {
         </div>
         </Row>
         <div style={{ border: '0.5px solid gray' }}></div>
-
         <Row>
           <div>
-          <img src={sol} width="20" style={{marginLeft:10,marginRight:5}}/>
-            <img src={a}  width="5%"/>
-            <img src={b} width="10%"/>
-            <img src={c}  />
-            <img src={d}/>
-            <img src={e}  />
+            <img src={sol} width="20" style={{ marginLeft: 10, marginRight: 5 }} />
+            <img src={a} width="5%" />
+            <img src={b} width="10%" />
+            <img src={c} width="10%"/>
+            <img src={d} />
+            <img src={e} />
+            <img src={f} width="7%"/>
             <img src={g} />
             <img src={h} />
-            <img src={j} />
-            <img src={k}  />
+            <img src={j} width="7%"/>
+            <img src={k} />
             <img src={l} />
-            <img src={m}  />
+            <img src={m} width="7%"/>
             <img src={n} width="7%" />
-            <img src={sag} width="20" style={{marginRight:10,marginLeft:5}} />
+            <img src={sag} width="20" style={{ marginRight: 10, marginLeft: 5 }} />
           </div>
         </Row>
-
-
         <div style={{ border: '0.5px solid gray' }}></div>
       </div>
-
       <div class="col-md-12" style={{ backgroundColor: '#959595', paddingTop: 3, paddingBottom: 3, marginTop: 10 }}>
         <div class="container">
           <Row style={{ color: 'white' }}>
@@ -994,13 +964,13 @@ function App() {
                   <p style={{ marginTop: 10 }}>$7,3705</p>
                 </div>
                 <div class="col-4 " style={{ paddingLeft: 80, paddingTop: 15 }}>
-                    <Row>
-                      <div style={{ borderLeft: '1px solid white', height: 55, marginRight: 20, marginTop: -20 }}></div>
-                      <img class="mx-2" src={insta} width="15" height="15" />
-                      <img class="mx-2" src={facebook} width="15" height="15" />
-                      <img class="mx-1" src={twitter} width="15" height="15" />
-                    </Row>
-                  </div>
+                  <Row>
+                    <div style={{ borderLeft: '1px solid white', height: 55, marginRight: 20, marginTop: -20 }}></div>
+                    <img class="mx-2" src={insta} width="15" height="15" />
+                    <img class="mx-2" src={facebook} width="15" height="15" />
+                    <img class="mx-1" src={twitter} width="15" height="15" />
+                  </Row>
+                </div>
               </Row>
             </Col>
           </Row>
@@ -1010,11 +980,11 @@ function App() {
               <img src={yedpar2} width="300" height="100" style={{ marginTop: 30, marginBottom: 25 }} />
               <p>
                 FERHATPAŞA MAH. G13 SOK. NO 72 KAT 4 <br />
-            ATAŞEHİR - İSTANBUL - TÜRKİYE
+                ATAŞEHİR - İSTANBUL - TÜRKİYE
             </p>
               <p>
                 +90 216 471 31 40 PBX <br />
-            info@yedpar.com.tr
+                info@yedpar.com.tr
             </p>
             </Col>
             <Col lg={1}></Col>
@@ -1028,7 +998,6 @@ function App() {
                   <img alt="" src={google} width="150" height="40" style={{ marginTop: 100 }} />
                   <img alt="" src={appstore} width="150" height="40" style={{ marginTop: 5, marginBottom: 10 }} />
                 </div>
-
               </Row>
             </Col>
           </Row>
@@ -1062,7 +1031,6 @@ function App() {
                     <img alt="" src={yeni} width="25" height="25" style={{ marginLeft: -35 }} />
                     <a><p style={{ marginTop: 10, fontSize: 14 }}>Yeni Ürünler</p></a>
                     <div style={{ borderLeft: '1px solid white', height: 50, marginLeft: 30 }}></div>
-
                   </Row>
                 </div>
                 <div class="col-2">
@@ -1070,7 +1038,6 @@ function App() {
                     <img alt="" src={yuzde} width="25" height="25" style={{ marginLeft: -30 }} />
                     <a><p style={{ marginTop: 10, fontSize: 14 }}>İndirim</p></a>
                     <div style={{ borderLeft: '1px solid white', height: 50, marginLeft: 50 }}></div>
-
                   </Row>
                 </div>
                 <div class="col-2">
@@ -1086,9 +1053,7 @@ function App() {
         </div>
       </div>
     </React.Fragment >
-
   );
 }
-
 
 export default App;
